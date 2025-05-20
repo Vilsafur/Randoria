@@ -1,0 +1,29 @@
+name: Vérification Flutter
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  flutter-analyze:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Cloner le dépôt
+        uses: actions/checkout@v3
+
+      - name: 🛠️ Installer Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.29.3'
+
+      - name: 📦 Récupérer les dépendances
+        run: flutter pub get
+
+      - name: 🧪 Analyser le code
+        run: flutter analyze
+
+      - name: ✅ Tester le build
+        run: flutter build apk --debug
