@@ -4,6 +4,8 @@
 **Randoria** est une application Android développée avec Flutter permettant de tirer aléatoirement des noms ou éléments selon des **catégories** et **sous-catégories** définies.  
 Elle a été pensée pour fonctionner sur tablette, avec une interface immersive inspirée des univers fantasy (parchemins, typographies anciennes, ambiance RPG).
 
+![Screenshot](docs/screenshot.png)
+
 ---
 
 ## ✨ Fonctionnalités
