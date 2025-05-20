@@ -27,12 +27,9 @@ jobs:
       - name: 🏗️ Générer le APK (release)
         run: flutter build apk --release
 
-      - name: 📦 Uploader l’APK en tant qu’artefact de la release
-        uses: actions/upload-release-asset@v1
+      - name: 📦 Uploader l’APK sur la release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: build/app/outputs/flutter-apk/app-release.apk
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ github.event.release.upload_url }}
-          asset_path: build/app/outputs/flutter-apk/app-release.apk
-          asset_name: randoria-${{ github.event.release.tag_name }}.apk
-          asset_content_type: application/vnd.android.package-archive
