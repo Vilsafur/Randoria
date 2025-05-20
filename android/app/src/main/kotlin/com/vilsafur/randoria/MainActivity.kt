@@ -1,4 +1,4 @@
-package com.example.nom_aleatoire
+package com.vilsafur.randoria
 
 import io.flutter.embedding.android.FlutterActivity
 

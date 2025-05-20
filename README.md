@@ -1,8 +1,8 @@
 
-# 🧙 Générateur Aléatoire - Univers Fantasy
+# 🧙 Randoria - Générateur Aléatoire Fantasy
 
-Une application Android développée avec Flutter permettant de tirer aléatoirement des noms ou éléments selon des **catégories** et **sous-catégories** définies.  
-Conçue pour être utilisée sur tablette, avec une interface immersive dans un style parchemin / fantasy.
+**Randoria** est une application Android développée avec Flutter permettant de tirer aléatoirement des noms ou éléments selon des **catégories** et **sous-catégories** définies.  
+Elle a été pensée pour fonctionner sur tablette, avec une interface immersive inspirée des univers fantasy (parchemins, typographies anciennes, ambiance RPG).
 
 ---
 
@@ -104,7 +104,15 @@ Ou transfère manuellement le fichier APK et ouvre-le depuis la tablette.
 
 ---
 
-## 🚧 Roadmap (éventuelle)
+## ⚙️ CI/CD GitHub
+
+- Analyse statique automatique à chaque commit
+- Compilation de l'APK **automatique lors de la création d’une release GitHub**
+- Le fichier `app-<version>.apk` est joint automatiquement à la release
+
+---
+
+## 🚧 Roadmap
 
 - [ ] Ajout d'autres catégories
 - [ ] Ajout d'autres univers
@@ -114,10 +122,7 @@ Ou transfère manuellement le fichier APK et ouvre-le depuis la tablette.
 ## 📝 Licence
 
 Ce projet est distribué sous licence **Mozilla Public License 2.0**.
-
 Vous pouvez l’utiliser et le modifier librement, y compris dans des projets commerciaux, mais **les fichiers modifiés doivent rester open source**.  
-Les autres parties du projet peuvent être sous d'autres licences.
-
-Voir le fichier [`LICENSE`](LICENSE) pour les détails.
+Voir le fichier [`LICENSE`](LICENSE) pour plus de détails.
 
 ---
