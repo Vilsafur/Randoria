@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/nom_aleatoire.iml" filepath="$PROJECT_DIR$/nom_aleatoire.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android/nom_aleatoire_android.iml" filepath="$PROJECT_DIR$/android/nom_aleatoire_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/randoria.iml" filepath="$PROJECT_DIR$/randoria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/randoria_android.iml" filepath="$PROJECT_DIR$/android/randoria_android.iml" />
     </modules>
   </component>
 </project>

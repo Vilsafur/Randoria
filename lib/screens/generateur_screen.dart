@@ -8,10 +8,10 @@ class GenerateurScreen extends StatefulWidget {
   const GenerateurScreen({super.key});
 
   @override
-  _GenerateurScreenState createState() => _GenerateurScreenState();
+  GenerateurScreenState createState() => GenerateurScreenState();
 }
 
-class _GenerateurScreenState extends State<GenerateurScreen> {
+class GenerateurScreenState extends State<GenerateurScreen> {
   List<ElementAleatoire> elements = [];
   List<ElementAleatoire> valeursAleatoires = [];
 

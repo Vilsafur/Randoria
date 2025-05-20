@@ -1,6 +1,6 @@
 {
-    "name": "nom_aleatoire",
-    "short_name": "nom_aleatoire",
+    "name": "randoria",
+    "short_name": "randoria",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
